@@ -54,7 +54,7 @@ export class AudioAnalyzer {
     const hzPerBin = context.sampleRate / (2 * fft.frequencyBinCount);
 
     // Create the worker (ensure the path matches your project structure)
-    const worker = new Worker(new URL("./workers/audioWorker.js", import.meta.url));
+    const worker = new Worker(new URL("./workers/AudioWorker.js", import.meta.url));
 
     // Send initial settings to the worker
     worker.postMessage({ hzPerBin });
