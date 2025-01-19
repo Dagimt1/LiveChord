@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react"
-import { AudioAnalyzer } from "./audioAnalyzer"
+import { AudioAnalyzer } from "./AudioAnalyzer"
 import { render as renderWave } from "./wave"
 
 export default function App() {
