@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react"
-import { AudioAnalyzer } from "./AudioAnalyzer"
+import { AudioAnalyzer } from "./audioAnalyzer"
 import { render as renderWave } from "./wave"
 
 export default function App() {
@@ -101,7 +101,7 @@ export default function App() {
 
         {/* Help & About Card (tailored content) */}
         <div id="view-help" className={`card full ${showHelp ? "" : "hidden"}`}>
-          <img className="hero" src="/piano_gif.gif" alt="piano" />
+          
           
           <h1>Help</h1>
           <p>
