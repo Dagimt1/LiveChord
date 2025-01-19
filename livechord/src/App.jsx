@@ -84,7 +84,7 @@ export default function App() {
     <>
       {/* Header */}
       <div className="header">
-        <h1 className="logo">Chords</h1>
+        <h1 className="logo">LiveChord</h1>
         <a
           id="btn-help"
           className="button"
